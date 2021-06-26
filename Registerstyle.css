@@ -1,0 +1,185 @@
+	*{
+			margin: 0;
+			padding: 0;
+			box-sizing: content-box;
+			
+		}
+
+
+.header{
+			background-image:linear-gradient(to left bottom,black,rgba(55,55,55,0.7)),url("img/medipol-gece-modified (1).jpg");
+			height: 100vh;  /* Çerçeve Görülebilen alanın %95 lik kısmını 
+				(tarayıcı için geçerli) Arkaplan için ayarladık.*/
+			background-size: cover;
+			background-position: top;
+		color: rgba(55,55,55,1.00)
+		
+		}
+		
+		.text-kay{      
+			height: 150px;
+			width: 600px;
+			position: absolute;
+			left: 600px;
+			top: 70px;
+		}
+		
+		.header_text{
+			text-align: center;
+			font-size: 45px; 
+			font-family: 'Open Sans Condensed', sans-serif;
+			font-family: 'Roboto', sans-serif; 
+			color:gold;
+		}
+		.header_text:hover{
+			color: white;
+		}
+		
+	
+
+		
+		
+#nav{
+	background-color:white;
+}
+
+#nav ul {
+	list-style-type: none;
+	overflow: hidden;
+}
+
+
+#nav li {
+	float: left;
+}
+
+#nav li a {
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	
+}
+
+#nav li a:hover {
+	background-color: #111;
+	color: white;
+
+	
+}
+
+.register{
+	display: block;
+	height: 500px;
+	width: 500px;
+	margin-top: 30px;
+	margin-left: 10px;
+	
+	
+	
+	
+}
+
+
+.register2{  /*çerçeve */
+	
+	height: 520px;
+	width: 400px;
+	margin-top: 30px;
+	border: 2px solid white;
+	border-radius: 25px;
+	border: 5px solid white;
+	
+	
+	
+}
+
+.register2:hover{
+	-webkit-box-shadow:10px 10px 20px 2px gold;
+	-mox-box-shadow: 10px 10px 20px 2px gold;
+	box-shadow: 10px 10px 20px 2px gold;
+}
+
+.input{ /*Burada input dosyalarını ayarladık.*/
+ display: inline-block;
+	box-sizing: border-box;
+	height: 35px;
+	width: 275px;
+	margin-left: 60px;
+	margin-top: 20px;
+	border-radius: 15px;
+	border: 3px solid gold;
+	
+	
+}
+	
+}
+
+
+
+
+
+.buton_fix{
+	height: 120px;
+	width: 120px;
+}
+
+.btn {
+	
+width: 50%;
+height: 60px;
+font-size: 15px;
+display: block;
+margin-top: 20px;
+background: #E0E0E0;
+transition: width 1s;
+border-radius: 15px;
+
+	
+	
+			
+}
+
+
+.btn:hover{
+	width: 98%;
+	background:#FFFD00;
+	border: 2px solid black;
+}
+
+.btn2{
+width: 150px;
+height: 20px;
+display: block;
+margin-top: 20px;
+margin-left: 120px;
+	
+			
+}
+
+.btn2:hover{
+	border: 2px solid black;
+	background: white;
+	
+	
+}
+/* Ratios*/
+
+.radios{
+	margin-top: 20px;
+	
+}
+.radio{
+	display: inline;
+	margin-left: 150px;
+	margin-top: 15px;
+}
+
+.text-radio{
+	display:inline;
+	font-size: 20px;
+	color: white;
+	
+}
+

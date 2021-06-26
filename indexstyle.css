@@ -1,0 +1,281 @@
+	*{
+			margin: 0;
+			padding: 0;
+			box-sizing: content-box;
+			
+		}
+		
+	
+
+.header{
+			background-image:linear-gradient(to left bottom,black,rgba(55,55,55,0.7)),url("img/medipol-gece-modified (1).jpg");
+			height: 100vh;
+			width: 100%;/* Çerçeve Görülebilen alanın %95 lik kısmını 
+				(tarayıcı için geçerli) Arkaplan için ayarladık.*/
+			background-size: cover;
+			background-position: top;
+		color: rgba(55,55,55,1.00)
+		
+		}
+		
+		
+		.text-kay{
+			position: absolute;
+			height: 70px;
+			right: 500px;
+			left: 550px;
+			top: 120px;
+			font-size: 12px;
+			color:beige;
+			font-size: 25px;
+			transition: font-size 1s;
+			
+		}
+		
+		.text-kay:hover{
+			color:white;
+			font-size: 30px;
+		}
+		
+
+	
+
+
+		
+	#nav{
+	background-color:white;
+}
+
+#nav ul {
+	list-style-type: none;
+	overflow: hidden;
+}
+
+
+#nav li {
+	float: left;
+}
+
+#nav li a {
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	
+}
+
+#nav li a:hover {
+	background-color: #111;
+	color: white;
+
+	
+}
+
+.register{
+	display: block;
+	height: 500px;
+	width: 500px;
+	margin-top: 30px;
+	margin-left: 10px;
+	border: 3px rgba white;
+	
+	
+	
+}
+
+
+.register2{  /*çerçeve */
+	
+	height: 320px;
+	width: 800px;
+	border-radius: 25px;
+	/*border: 5px solid gold;*/
+	top: 350px;
+	position: fixed;
+	
+	
+	
+}
+
+.logolar{
+	height: 250px;
+	width: 750px;
+	/*border: 1px solid white;*/
+	margin: 25px;
+	padding-left:55px;
+	
+	
+	
+}
+.logo{
+	color: gold;
+	padding-right: 100px;
+}
+
+.logo:hover{
+	color: white;
+}
+
+.logo_ext{
+	padding-left: 60px;
+}
+.logo_ext2{
+	padding-left: 60px;
+}
+
+.logo_yaz{
+	box-sizing: border-box;
+	position: relative;
+	bottom: 190px;
+}
+
+.logo_yaz h4{
+	display: inline-block;
+	font-size: 30px;
+	color: white;
+	padding-right:15px;
+	padding-left: 15px;
+	
+}
+
+.h4_fix{
+	margin-left: 25px;
+}
+
+.small_texts{
+	height: 250px;
+	width: 800px;
+	position: relative;
+	bottom: 200px;
+	display: inline;
+	
+	
+}
+
+.first_box{
+	height: 150px;
+	width: 250px;
+	/*border: 1px solid gray;*/  
+	
+	
+}
+
+p{
+	font-size: 20px;
+	color: #f1f1f1;
+	margin: 15px;
+	text-align: center;
+	margin-top:25px;
+	font-family: Arial,Helvetica,Sans,Sans-Serif,Sans Serif;
+}
+
+
+.second_box{
+	height: 150px;
+	width: 250px;
+	/*border: 1px solid gray;*/
+	position:inherit;
+	left: 260px;
+	bottom: 152px;
+	
+}
+
+.third_box{
+	height: 150px;
+	width: 250px;
+	/*border: 1px solid gray;*/
+	position:inherit;
+	left: 522px;
+	bottom: 355px;
+	
+}
+	
+
+
+
+
+.buton_fix{
+	height: 120px;
+	width: 120px;
+}
+
+.btn {
+	
+width: 50%;
+height: 60px;
+font-size: 15px;
+display: block;
+margin-top: 0px;
+background: #E0E0E0;
+transition: width 1s;
+border-radius: 15px;
+	
+	
+			
+}
+
+
+.btn:hover{
+	width: 98%;
+	background:#FFFD00;
+}
+
+.btn2{
+width: 150px;
+height: 20px;
+display: block;
+margin-top: 20px;
+margin-left: 120px;
+	
+			
+}
+
+.btn2:hover{
+	background: red;
+	
+	
+}
+
+h1{
+	color:white;
+	text-align: center;
+	width: 1200px;
+	
+}
+h1:hover{
+	color: gold;
+}
+
+.abotton{
+padding: 12px 65px;
+text-decoration:none; <!--altyazıyı kaldırdık. -->
+font-size: 16px;
+display: inline-block;
+border-radius: 25px;
+background-color: gold;
+
+	
+	
+}
+
+
+
+
+
+
+.primary-outline {
+			background-color: gold;
+			color:black;
+			border: 2px solid white;
+		}
+
+.primary-outline:hover {
+			color: black;
+			background-color: white;
+			border: 2px solid black;
+		}
+
+
+
+

@@ -1,0 +1,158 @@
+	*{
+			margin: 0;
+			padding: 0;
+			box-sizing: content-box;
+			
+		}
+		
+	
+
+
+		
+	#nav{
+	background-color:white;
+}
+
+#nav ul {
+	list-style-type: none;
+	overflow: hidden;
+}
+
+
+#nav li {
+	float: left;
+}
+
+#nav li a {
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	
+}
+
+#nav li a:hover {
+	background-color: #111;
+	color: white;
+
+	
+}
+
+.register2{  /*çerçeve */
+	
+	height: 520px;
+	width: 400px;
+	margin-top: 30px;
+	border-radius: 25px;
+	margin-left: 65px;
+	border: 5px solid white;
+	
+	
+}
+.register2:hover{
+	-webkit-box-shadow:10px 10px 20px 2px gold;
+	-mox-box-shadow: 10px 10px 20px 2px gold;
+	box-shadow: 10px 10px 20px 2px gold;
+}
+
+.inputs{
+	height: 35px;
+	width: 275px;
+	border-radius: 25px;
+	border: 2px solid gold;
+	margin-top: 40px;
+	margin-left: 50px;
+}
+
+.inputs_fix{
+	margin-top: 120px;
+}
+
+
+.buton_fix{
+	
+}
+
+
+.inside h3{
+	color: white;
+	position: absolute;
+	left: 190px;
+	top: 340px;
+}
+
+input[type="checkbox"]{
+	height: 20px;
+	width: 250px;
+	position: inherit;
+	position: absolute;
+	left: 180px;
+	top: 343px;
+}
+
+
+.buton_fix{
+	height: 120px;
+	width: 120px;
+}
+
+.register2 h1{
+	color: white;
+	position: absolute;
+	left: 150px;
+	top: 100px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 50px;
+}
+
+.btn {
+	
+width: 150px;;
+height: 60px;
+font-size: 15px;
+display: block;
+margin-top: 90px;
+background: #E0E0E0;
+transition: width 1s;
+border-radius: 15px;
+
+	
+	
+			
+}
+
+
+.btn:hover{
+	width: 395px;
+	background:#FFFD00;
+	border: 2px solid black;
+}
+
+.btn2{
+width: 150px;
+height: 20px;
+display: block;
+margin-top: 20px;
+margin-left: 120px;
+	
+			
+}
+
+.btn2:hover{
+	border: 2px solid black;
+	background: white;
+	
+	
+}
+
+.text-kay:hover{
+	color: white;
+}
+
+
+
+
+
+
+
