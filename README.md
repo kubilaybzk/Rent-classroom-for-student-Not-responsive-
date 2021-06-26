@@ -4,7 +4,7 @@ As the final project of the web design course and database course, I developed a
 This website is very simple. There are some php files that show the results. Results can be viewed by the user, add tables or failed to insert tables.
 
 
-#hierarchical diagram
+# hierarchical diagram
 ![image](https://user-images.githubusercontent.com/48950686/123525373-d7fe9d80-d6d8-11eb-952b-16294c3a7e89.png)
 
 # DDL
